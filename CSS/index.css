@@ -1,0 +1,105 @@
+body
+{
+    margin: 0%;
+    background-color: rgb(12, 7, 21);
+}
+.cover
+{
+    background-image: url(../IMAGE/background/2948.jpg);
+    height: 20vh;
+    width: 50%;
+    position: absolute;
+    background-size: cover;
+    background-position-y: -9vh;
+    background-repeat: repeat-x;
+    overflow: auto;
+}
+.nav
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(48, 45, 115);
+}
+.listbar
+{
+    color: hotpink;
+    display: flex;
+}
+.LI
+{
+    list-style-type: none;
+    margin: 0 5vh;
+    color: white;
+}
+.LI:hover
+{
+    list-style-type: none;
+    margin: 0 5vh;
+    color: yellow;
+    text-decoration: underline;
+}
+a
+{
+    text-decoration: none;
+}
+/* after bar */
+.underbar
+{
+    display: flex;
+}
+.underbar1
+{
+    display: block;
+}
+.logo1
+{
+    height: 30vh;
+    width: 30vh;
+    background-image: url(../IMAGE/logo/Premium\ Vector\ _\ Astronaut\ on\ moon\ \ \ illustration\ emblem.jpeg);
+    background-position: center;
+    background-size: 150%;
+    margin: 10vh 0 0 5%;
+    border-radius: 50%;
+}
+.text
+{
+    color: white;
+    /* background-color: hotpink; */
+    text-align: center;
+    margin-top: 15px;
+}
+.text1
+{
+    color: white;
+    /* background-color: hotpink; */
+    text-align: center;
+    margin-top: 15px;
+    font-size: 12px;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 5px;
+}
+.icon
+{
+    color: rgb(119, 198, 244);
+    text-align: center;
+    margin-top: 10px;
+}
+body div div div i
+{
+    margin-left: 8px;
+}
+body div div div i:hover
+{
+    margin-left: 8px;
+    color: rgb(255, 251, 133);
+    cursor: pointer;
+}
+.vertical
+{
+    height: 70vh;
+    width: 3px;
+    background-color: rgb(255, 245, 105);
+    margin-top: 5vh;
+    margin-left: 8vh;
+    border-radius: 2px;
+}
