@@ -1,0 +1,375 @@
+body
+{
+    margin: 8%;
+    background-color: rgb(238, 151, 151);
+    margin-left: 5vw;
+}
+/* CONTROL SNAP PAGE SCROLL  */
+.containerLG
+{
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+
+}
+section
+{
+    height: 100vh;
+    display: block;
+    align-items: center;
+    scroll-snap-align: start;
+}
+.one 
+{
+   /* background-color: black; */
+    
+}
+.two
+{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100vh;
+    
+
+}
+.LI
+{
+    list-style-type: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 5vh;
+    font-size: .8em;
+    color: white;
+}
+.LI:hover
+{
+    list-style-type: none;
+    margin: 0 5vh;
+    color: yellow;
+    text-decoration: underline;
+}
+a
+{
+    text-decoration: none;
+}
+/* after bar */
+.underbar
+{
+    display: flex;
+    margin-top: -5vh;
+}
+.underbar1
+{
+    display: block;
+}
+.logo1
+{
+    height: 30vh;
+    width: 30vh;
+    background-image: url(../IMAGE/logo/Premium\ Vector\ _\ Astronaut\ on\ moon\ \ \ illustration\ emblem.jpeg);
+    background-position: center;
+    background-size: 150%;
+    margin: 10vh 0 0 5%;
+    border-radius: 50%;
+    /* shadow  */
+    border-radius: 150px;
+/* background: #e0e0e0; */
+box-shadow:  5px 5px 10px #ff77e8,
+             -5px -5px 10px #4afff9;
+}
+.text
+{
+    color: white;
+    /* background-color: hotpink; */
+    text-align: center;
+    margin-top: 15px;
+}
+.text1
+{
+    color: white;
+    /* background-color: hotpink; */
+    text-align: center;
+    margin-top: 15px;
+    font-size: 12px;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 5px;
+}
+.icon
+{
+    color: rgb(119, 198, 244);
+    text-align: center;
+    margin-top: 10px;
+}
+.iconblock
+{
+    color: rgb(244, 244, 119);
+    text-align: center;
+    margin-top: 10px;
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    text-align: left;
+    margin-top: 5vh;
+}
+.iconblocktext
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-left: 10px;
+}
+body div div div a
+{
+    margin-left: 8px;
+    color: rgb(64, 194, 241);
+}
+body div div div a:hover
+{
+    margin-left: 8px;
+    color: rgb(255, 251, 133);
+    cursor: pointer;
+}
+.vertical
+{
+    height: 86vh;
+    width: 2px;
+    background-color: rgb(255, 245, 105);
+    margin-top: 5vh;
+    margin-left: 8vh;
+    border-radius: 2px;
+    opacity: 30%;
+
+}
+/* ROBOT ASTRONUAT */
+/* .container
+{
+    background-color: hotpink;
+    height: 40*2vh;
+    width: 35vh;
+    margin-left: 50%; 
+    margin-top: 20vh;
+    background-image: url(../IMAGE/background/Top\ 20\ Blender\ Artworks\ from\ 2013\ —\ Blender\ Guru.png);
+    background-size: cover;
+    /* position: absolute; */
+} */
+/* ABOUT ME  */
+.aboutme 
+{
+    color: red;
+}
+h1
+{
+    color: white;
+    margin-top: 10vh;
+    /* position: absolute; */
+    position: sticky;
+}
+.info_aboutme1
+{
+    display: flex;
+}
+.percentage_coding
+{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(43, 75, 95);
+    margin: 100px 0px 0px 100px;
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+    /* shadow  */
+    border-radius: 31px;
+/* background: #e0e0e0; */
+box-shadow:  5px 5px 8px #0dffd7,
+             -5px -5px 8px #ff2a8a;
+}
+.container_per
+{
+    display: grid;
+    color: white;
+    font-size: .5em;
+}
+.text_aboutme
+{
+    height: 350px;
+    width: 300px;
+    background-color: rgb(62, 65, 101);
+    margin: 100px 0px 0px 150px;
+    border-radius: 20px;
+    /* text-align: center; */
+    text-indent: 20px;
+    text-align: justify;
+    padding: 20px;
+    color: white;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* shadow  */
+        border-radius: 31px;
+        /* background: #e0e0e0; */
+        box-shadow:  5px 5px 8px #0dffd7,
+                     -5px -5px 8px #ff2a8a;
+}
+/* PERCENTAGE OF SKILL */
+.vertical_ex
+{
+    height: 4px;
+    width: 200px;
+    margin-top: 5px;
+    background-color: rgba(255, 123, 0, 0.941);
+    position: absolute;
+    border-radius: 2px;
+    margin-top: 20px;
+    position: absolute;
+    position: sticky;
+}
+.vertical_ex1
+{
+    height: 4px;
+    width: 130px;
+    background-color: rgba(255, 242, 0, 0.941);
+    position: absolute;
+    margin-top: -9px;
+    border-radius: 2px 0px 0px 2px;
+    position: absolute;
+    position: sticky;
+}
+.vertical_ex11
+{
+    height: 4px;
+    width: 20px;
+    background-color: rgba(255, 242, 0, 0.941);
+    position: absolute;
+    margin-top: -9px;
+    border-radius: 2px 0px 0px 2px;
+    position: absolute;
+    position: sticky;
+}
+.vertical_ex111
+{
+    height: 4px;
+    width: 90px;
+    background-color: rgba(255, 242, 0, 0.941);
+    position: absolute;
+    margin-top: -9px;
+    border-radius: 2px 0px 0px 2px;
+    position: absolute;
+    position: sticky;
+}
+.vertical_ex1111
+{
+    height: 4px;
+    width: 40px;
+    background-color: rgba(255, 242, 0, 0.941);
+    position: absolute;
+    margin-top: -9px;
+    border-radius: 2px 0px 0px 2px;
+    position: absolute;
+    position: sticky;
+}
+/* BAR OF ICON  */
+.bar_icon
+{
+    height: 150px;
+    width: 74%;
+    margin-top: -50px;
+    margin-left: 40vh;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+
+}
+.each_icon_blender
+{
+    height: 8vh;
+    width: 6.8vh;
+    background-image: url(../IMAGE/LOGO_SW/blender_community_badge_orange.png);
+    background-size: cover;
+    margin-left: 30px;
+    margin-top: -4px;
+}
+.each_icon_html
+{
+    height: 7vh;
+    width: 6.2vh;
+    background-image: url(../IMAGE/LOGO_SW/cdnlogo.com_html.svg);
+    background-size: cover;
+    margin-left: 30px;
+    
+}
+.each_icon_css
+{
+    height: 7vh;
+    width: 6.2vh;
+    background-image: url(../IMAGE/LOGO_SW/cdnlogo.com_css.svg);
+    background-size: cover;
+    margin-left: 30px;
+    
+}
+.each_icon_java
+{
+    height: 7vh;
+    width: 6.2vh;
+    background-image: url(../IMAGE/LOGO_SW/cdnlogo.com_javascript.svg);
+    background-size: cover;
+    margin-left: 30px;
+    
+}
+.each_icon_python
+{
+    height: 7vh;
+    width: 6.9vh;
+    background-image: url(../IMAGE/LOGO_SW/cdnlogo.com_python.svg);
+    background-size: cover;
+    margin-left: 30px;
+}
+.each_icon_ps
+{
+    height: 7vh;
+    width: 7vh;
+    background-image: url(../IMAGE/LOGO_SW/cdnlogo.com_adobe-photoshop-file.svg);
+    background-size: cover;
+    margin-left: 30px;
+}
+.each_icon_tailwind
+{
+    height: 5vh;
+    width: 8vh;
+    background-image: url(../IMAGE/LOGO_SW/cdnlogo.com_tailwind-css.svg);
+    background-size: cover;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+/* PAGE ONE RESPONSIVE FOR SMARTPHONE */
+@media all and (max-width: 400px) and (max-height:900px)
+{
+    section
+{
+    height: 100vh;
+    display: block;
+    align-items: center;
+    scroll-snap-align: start;
+}
+.underbar
+{
+    display: block;
+    margin-top: -5vh;
+}
+.vertical
+{
+    display: none;
+}
+.logo1
+{
+    height: 20vh;
+    width: 20vh;
+    background-image: url(../IMAGE/logo/Premium\ Vector\ _\ Astronaut\ on\ moon\ \ \ illustration\ emblem.jpeg);
+    background-position: center;
+    background-size: 150%;
+    margin: 10vh 0 0 5%;
+    border-radius: 50%;
+    /* shadow  */
+    border-radius: 150px;
+/* background: #e0e0e0; */
+box-shadow:  5px 5px 10px #ff77e8,
+             -5px -5px 10px #4afff9;
+}
